@@ -9,6 +9,7 @@ import {
 } from 'react-native'
 import PropTypes from 'prop-types'
 
+
 export default class Button extends PureComponent {
   static propTypes = {
     text: PropTypes.string.isRequired,

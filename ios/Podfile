@@ -79,6 +79,8 @@ target 'test' do
 
   pod 'tipsi-stripe', :path => '../node_modules/tipsi-stripe'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'testTests' do
     inherit! :complete
     # Pods for testing

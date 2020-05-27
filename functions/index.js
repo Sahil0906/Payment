@@ -22,7 +22,7 @@ exports.completePaymentWithStripe = functions.https.onRequest(
         response.send(charge);
       })
       .catch(error => {
-        console.log(error);
+        console.warn(error);
       });
   },
 );
